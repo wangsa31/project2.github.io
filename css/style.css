@@ -1,0 +1,276 @@
+/* destop version */
+@media (min-width: 992px) {
+    .jumbotron{
+        margin-top: -100px;
+        height: 600px !important;
+    }
+    .nav-link , .navbar-brand{
+        color: white !important;
+        font-size: 20px;
+    }
+
+    .jumbotron .container{
+        margin-top: 150px !important;
+    }
+
+
+    .jumbotron h1{
+        font-size: 50px;
+        letter-spacing: 5px;
+    }
+
+    .jumbotron p{
+        font-size: 25px;
+    }
+
+    .jumbotron b{
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+
+    button{
+        padding: 10px 20px 10px !important;
+    }
+    
+    .panel .container{
+        background-color: white;
+        margin-top: -100px;
+        padding: 20px 20px 10px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.20);
+    }
+    .pakage .btn-outline-primary{
+        display: unset !important;
+    }
+
+    .Subcribe input{
+        width: 60%;
+        padding: 9px !important;
+        background-color: #f1f2f6;
+        border: 1px solid  #f1f2f6;
+        margin-left: 5px;
+    }
+
+    .footer{
+        margin-top: 20px;
+        min-height: 400px;
+        background-color: #f1f2f6;
+    }
+
+   
+
+    
+}
+/* akhir destop */
+
+button{
+    padding: 10px 20px 10px !important;
+}
+
+.Subcribe input{
+    width: 60%;
+    padding: 9px !important;
+    background-color: #f1f2f6;
+    border: 1px solid  #f1f2f6;
+    margin-left: 5px;
+}
+
+.Subcribe h1{
+    font-size: 30px;
+}
+
+.Subcribe h5{
+    font-size: 20px;
+}
+
+.content{
+    width: 300px;
+    min-height:200px ;
+    
+    float: right;
+}
+
+ul{
+    list-style: none !important;
+}
+li{
+    padding: 7px;
+}
+
+.row1{
+    margin-top: 50px;
+    padding: 10px 10px 10px;
+}
+.fa-instagram , .fa-facebook-f ,.fa-twitter{
+    margin-top: 10px;
+    font-size: 20px;
+    color: burlywood;
+}
+
+.instagram1 , .facebook1 , .twitter1{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin-left: -10px;
+    border-radius: 20px;
+    background-color: blue;
+}
+
+.footer img{
+    width: 200px;
+
+}
+
+/* all version */
+.Blog .card h1{
+    font-size: 20px;
+    text-shadow: 1px 1px 1px  grey;
+}
+
+.Blog .card b{
+    font-size: 15px;
+    color: black !important;
+}
+
+.gambar1{
+    width: 100%;
+    height: 190px;
+    background-image: url('../img/brugge-5278796_1280.jpg') !important;
+    background-size: cover;
+    position: relative;
+}
+
+.gambar2{
+    width: 100%;
+    height: 190px;
+    background-image: url('../img/rice-1514141_1280.jpg') !important;
+    background-size: cover;
+    position: relative;
+}
+
+.gambar3{
+    width: 100%;
+    height: 190px;
+    background-image: url('../img/stonehenge-101801_1280.jpg') !important;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.text{
+    font-size: 20px;
+    text-align: center;
+
+    position: absolute;
+    width: 55px;
+    height: 40px;
+    background-color: white;
+    top: 155px;
+    right: 0;
+}
+
+.text1{
+    margin-top: 50px !important;
+}
+
+
+label{
+    text-transform: uppercase !important;
+    font-weight: bold;
+}
+
+.panel .container{
+    background-color: white;
+    margin-top: -90px;
+    padding: 20px 20px 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.20);
+}
+
+.jumbotron{
+    width:100%;
+    height: 300px;
+    background-image: url('./img/maldives-1993704_1920.jpg');
+    background-size: cover;
+}
+
+.jumbotron h1,b,p{
+    color:  white !important;
+}
+.jumbotron .container{
+    margin-top: 50px;
+}
+
+.pakage{
+    margin-top: 100px;
+}
+.pakage .btn-outline-primary{
+    display: none;
+}
+.card:hover{
+    transition: ease-in 0.25s;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.20);
+}
+
+.content a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.content a:hover{
+    color: skyblue;
+}
+
+
+
+
+/* mD */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .jumbotron .container{
+        margin-top: 20px;
+    }
+    .container h1{
+        font-size: 40px;
+    }
+
+    .content{
+        text-align: center;
+        margin-right: 210px;
+        
+    }
+
+    .footer h4{
+        text-align: center !important;
+    }
+}
+/* akhir Md */
+
+
+/* sm */
+@media (max-width: 575.98px) { 
+    .card{
+        margin-bottom: 20px;
+    }
+    .card .btn-outline-primary{
+        display: inherit;
+    }
+
+    .test100{
+        display: none;
+    }
+
+    .content{
+        text-align: center;
+        margin-right: 100px;
+    }
+
+    .footer h4{
+        text-align: center;
+    }
+
+    
+  
+   
+ }
