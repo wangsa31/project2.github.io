@@ -191,6 +191,7 @@ label{
 .jumbotron{
     width:100%;
     height: 300px;
+/*  update    */
     background-image: url('../img/maldives-1993704_1920.jpg');
     background-size: cover;
 }
